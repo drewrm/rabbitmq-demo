@@ -1,0 +1,13 @@
+topicprefix = /topic/
+libdir = /usr/libexec/mcollective
+collectives = mcollective,ci
+main_collective = mcollective
+logfile = /tmp/mcollective.log
+loglevel = debug
+securityprovider = psk
+plugin.psk = onetwothree
+connector = stomp
+plugin.stomp.host = 33.33.33.10
+plugin.stomp.port = 6163
+plugin.stomp.user = mcollective
+plugin.stomp.password = mcollective
